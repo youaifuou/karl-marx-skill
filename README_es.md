@@ -6,7 +6,7 @@
 
 **Marco de pensamiento y método crítico de Karl Marx**
 
-*Un Skill de Claude destilado a partir de la lectura sistemática en seis dimensiones de 17 textos fundamentales de Marx*
+*Un Skill de IA destilado a partir de la lectura sistemática en seis dimensiones de 17 textos fundamentales de Marx*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
@@ -20,17 +20,32 @@
 **🔬 Destilación profunda, no apilamiento de prompts**
 Construido a partir de una lectura sistemática en seis dimensiones de 17 textos fundamentales de Marx (hilos de pensamiento, métodos polémicos, ADN expresivo, validación externa, marcos de decisión, cruces biográficos), produciendo un marco cognitivo completo.
 
+**🔀 Motor de doble modo**
+En conversación casual, cambia automáticamente al «modo correspondencia» (breve, rápido, incisivo); con «análisis profundo», al «modo tratado» (argumentación sistemática completa). El Skill enruta automáticamente según la longitud de la entrada y las palabras clave.
+
+**🎯 Radar de afinidad de clase**
+Detecta automáticamente el bando del usuario — empatía fraternal para los trabajadores que expresan su sufrimiento, fuego crítico total para los apologistas del capital.
+
+**🛡️ Prohibición de fuego amigo**
+El fuego satírico apunta solo a las estructuras del capital y las instituciones, nunca a los compromisos de los oprimidos.
+
 **⚙️ Flujo de trabajo agéntico completo**
 Clasificación del problema → investigación contemporánea (WebSearch) → análisis marxiano → ensamblaje de la salida. Invoca automáticamente herramientas de búsqueda para fenómenos contemporáneos.
 
 **🧰 Rica caja de herramientas analíticas**
-6 principios epistemológicos · 10 heurísticas de decisión · 10 recursos retóricos · 5 espectros de tono · motor polémico completo.
+6 principios epistemológicos · 10 heurísticas de decisión · 10 recursos retóricos · 7 espectros de tono · motor polémico completo.
 
 **🎭 No es una máscara de chatbot**
-Directrices de estilo de escritura independientes (9 reglas positivas + tabla de anti-patrones) que aseguran que la salida se lea como si Marx mismo estuviera escribiendo.
+Directrices de estilo independientes (7 reglas positivas + 7 anti-patrones) que aseguran que la salida se lea como si Marx mismo estuviera escribiendo.
+
+**📐 Disciplina tipográfica**
+Las listas con viñetas y el abuso de negritas están prohibidos. Se impone la argumentación en prosa — la salida se lee como un artículo, no como una presentación.
 
 **📜 Anclas estilísticas de textos originales**
-El apéndice incluye 4 pasajes seleccionados de las obras originales de Marx para la calibración del estilo.
+El apéndice incluye 14 pasajes seleccionados (7 modos tonales × 2 pasajes) de 12 obras fundamentales para la calibración del estilo.
+
+**🧩 Tensiones internas**
+4 pares de contradicciones intelectuales no resueltas (ej.: humanismo temprano vs. cientismo tardío). Admite honestamente las controversias en lugar de forzar una falsa certeza.
 
 ---
 
@@ -42,11 +57,11 @@ npx skills add youaifuou/karl-marx-skill
 
 Luego en Claude Code:
 
-> 🔴 Analiza la economía gig desde la perspectiva de Marx
+> 🔴 Marx, ¿es verdad que «996 es una bendición»? (→ modo correspondencia: golpe rápido)
+>
+> 🔴 Dame un análisis profundo de la economía gig (→ modo tratado: disección completa)
 >
 > 🔴 ¿Qué diría Marx sobre «el capitalismo es el sistema menos malo»?
->
-> 🔴 Cambia a Marx y ayúdame a analizar las relaciones laborales en la economía de plataformas
 
 <details>
 <summary>Instalación manual</summary>
@@ -69,20 +84,22 @@ cp -r karl-marx-skill/karl-marx /ruta/a/tu/proyecto/.claude/skills/
 
 ## 🏗️ Arquitectura
 
-SKILL.md (33KB / 481 líneas) contiene los siguientes módulos:
+SKILL.md (25KB / 340 líneas, reglas centrales autónomas + `references/` cargadas bajo demanda):
 
-| Módulo | Contenido | Líneas |
-|--------|-----------|--------|
-| §1 Reglas de juego de rol | Identidad, reglas lingüísticas, mecanismo de salida | ~25 |
-| §2 Flujo de respuesta | Protocolo agéntico de 4 pasos + plantillas de análisis | ~90 |
-| §3 Tarjeta de identidad | Contexto, preocupaciones, método, cronología | ~25 |
-| §4 Marco epistemológico | 6 principios epistemológicos | ~30 |
-| §5 Heurísticas de decisión | 10 métodos de decisión | ~50 |
-| §6 Motor polémico | Metodología polémica + genealogía de adversarios | ~35 |
-| §7 ADN expresivo | Estilo + retórica + espectro tonal + alusiones literarias | ~100 |
-| §8 Prohibiciones | Líneas rojas + tabla de anti-patrones IA | ~25 |
-| §9 Límites de honestidad | 5 declaraciones de limitaciones | ~10 |
-| §10 Corpus fuente | 17 textos fundamentales + metodología | ~35 |
+| Módulo | Contenido |
+|--------|-----------|
+| §1 Reglas de juego de rol | Radar de afinidad de clase · control de fuego de 3 niveles · primera persona · mecanismo de salida |
+| §2 Flujo de respuesta | Motor de doble modo (correspondencia / tratado) · cadena de pensamiento de 5 pasos |
+| §3 Tarjeta de identidad | Autopresentación del personaje + cronología (→ `references/`) |
+| §4 Marco epistemológico | 6 principios, cada uno con limitaciones declaradas |
+| §5 Heurísticas de decisión | 10 reglas de juicio |
+| §6 Motor polémico | Metodología de 4 pasos + genealogía de adversarios (→ `references/`) |
+| §7 ADN expresivo | 7 reglas de estilo + disciplina tipográfica + 7 espectros tonales + retórica/alusiones (→ `references/`) |
+| §8 Prohibiciones | 6 líneas rojas + 7 anti-patrones (incl. prohibición de fuego amigo) |
+| §9 Tensiones internas | 4 pares de contradicciones reales |
+| Apéndice A | 14 muestras de escritura original (→ `references/`) |
+| §10 Límites de honestidad | Declaraciones de limitaciones |
+| §11 Corpus fuente | 17 textos fundamentales + metodología (→ `references/`) |
 
 ---
 
@@ -111,9 +128,13 @@ Los 17 textos fueron objeto de una lectura profunda en seis dimensiones.
 
 ## 🙏 Agradecimientos
 
+### Referencias metodológicas
+
 - [Nuwa Skill](https://github.com/alchaincyf/nuwa-skill) — Marco universal de destilación de persona
 - [Zhang Xuefeng Skill](https://github.com/alchaincyf/zhangxuefeng-skill) — Referencia de Skill con personalidad
 - [Sócrates Skill](https://github.com/RoundTable02/socrates-skill) — Referencia de metodología filosófica
+
+### Fuentes de los textos originales
 
 Textos de Marx del dominio público (Project Gutenberg / Marxists Internet Archive).
 

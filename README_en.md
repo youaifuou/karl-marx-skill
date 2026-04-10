@@ -6,7 +6,7 @@
 
 **Karl Marx's Critical Framework & Dialectical Method**
 
-*A Claude Skill distilled from 17 original Marx texts through systematic six-dimensional deep reading*
+*An AI Skill distilled from 17 original Marx texts through systematic six-dimensional deep reading*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
@@ -20,17 +20,32 @@
 **🔬 Deep Distillation, Not Prompt Stacking**
 Built from a systematic six-dimensional reading of 17 core Marx texts (intellectual threads, polemic methods, expressive DNA, external validation, decision frameworks, biographical intersections), yielding a complete cognitive framework.
 
+**🔀 Dual-Mode Engine**
+Casual chat auto-routes to "Correspondence Mode" (short, sharp, hit-and-run); say "deep analysis" to switch to "Treatise Mode" (full-length systematic argument). The Skill routes automatically based on input length and trigger words.
+
+**🎯 Class Affinity Radar**
+Automatically detects the user's camp — warm comradely empathy for workers venting frustrations, full critical firepower for apologists of capital.
+
+**🛡️ Friendly Fire Ban**
+Satirical fire targets only capital structures and institutions, never mocking the compromises of the oppressed.
+
 **⚙️ Full Agentic Workflow**
 Problem classification → contemporary research (WebSearch) → Marxian analysis → output assembly. Automatically invokes search tools when analyzing contemporary phenomena.
 
 **🧰 Rich Analytical Toolkit**
-6 epistemological principles · 10 decision heuristics · 10 rhetorical devices · 5 tone spectrums · complete polemic engine.
+6 epistemological principles · 10 decision heuristics · 10 rhetorical devices · 7 tone spectrums · complete polemic engine.
 
 **🎭 Not a Chatbot Skin**
-Independent writing style guidelines (9 positive rules + anti-pattern table) ensure output reads like Marx himself writing, not "AI summarizing in Marx's words."
+Independent writing style guidelines (7 positive rules + 7 anti-patterns) ensure output reads like Marx himself writing, not "AI summarizing in Marx's words."
+
+**📐 Typographic Discipline**
+Bullet lists and bold spam are banned. Prose argumentation is enforced — output reads like an article, not a slide deck.
 
 **📜 Original Text Style Anchors**
-Appendix includes 4 curated passages from Marx's original works as style calibration anchors, covering immanent critique, manifesto-style rhetoric, historical narrative, and compassionate indictment.
+Appendix includes 14 curated passages (7 tone modes × 2 passages) from 12 core works as style calibration anchors.
+
+**🧩 Internal Tensions**
+Built-in 4 pairs of unresolved intellectual contradictions (e.g. early humanism vs. late scientism). Honestly acknowledges disputes rather than forcing false certainty.
 
 ---
 
@@ -42,11 +57,11 @@ npx skills add youaifuou/karl-marx-skill
 
 Then in Claude Code:
 
-> 🔴 Analyze the gig economy from Marx's perspective
+> 🔴 Marx, is "996 is a blessing" true? (→ Correspondence Mode: quick strike)
+>
+> 🔴 Give me a deep analysis of the gig economy (→ Treatise Mode: full dissection)
 >
 > 🔴 What would Marx think of "capitalism is the least bad system"?
->
-> 🔴 Switch to Marx and help me analyze labor relations in the platform economy
 
 <details>
 <summary>Manual Installation</summary>
@@ -69,20 +84,22 @@ cp -r karl-marx-skill/karl-marx /path/to/your/project/.claude/skills/
 
 ## 🏗️ Architecture
 
-SKILL.md (33KB / 481 lines) contains the following modules:
+SKILL.md (25KB / 340 lines, core rules self-contained + `references/` loaded on demand):
 
-| Module | Content | Lines |
-|--------|---------|-------|
-| §1 Role-Playing Rules | Identity, language rules, exit mechanism | ~25 |
-| §2 Response Workflow | 4-step Agentic Protocol + specialized analysis templates | ~90 |
-| §3 Identity Card | Background, core concerns, method, key timeline | ~25 |
-| §4 Epistemological Framework | 6 epistemological principles | ~30 |
-| §5 Decision Heuristics | 10 decision-making methods | ~50 |
-| §6 Polemic Engine | Polemic methodology + opponent genealogy | ~35 |
-| §7 Expressive DNA | Writing style + rhetorical devices + tone spectrum + literary allusions | ~100 |
-| §8 Prohibitions | Intellectual red lines + AI anti-pattern table | ~25 |
-| §9 Honesty Boundaries | 5 limitation statements | ~10 |
-| §10 Source Corpus | 17 core texts + research methodology | ~35 |
+| Module | Content |
+|--------|---------|
+| §1 Role-Playing Rules | Class affinity radar · 3-tier fire control · first person · exit mechanism |
+| §2 Response Workflow | Dual-mode engine (Correspondence / Treatise) · 5-step chain of thought |
+| §3 Identity Card | Persona self-intro + timeline (→ `references/`) |
+| §4 Epistemological Framework | 6 principles, each with stated limitations |
+| §5 Decision Heuristics | 10 judgment rules |
+| §6 Polemic Engine | 4-step methodology + opponent genealogy (→ `references/`) |
+| §7 Expressive DNA | 7 style rules + typographic discipline + 7 tone spectrums + rhetoric/allusions (→ `references/`) |
+| §8 Prohibitions | 6 intellectual red lines + 7 anti-patterns (incl. friendly fire ban) |
+| §9 Internal Tensions | 4 pairs of genuine contradictions |
+| Appendix A | 14 original text writing samples (→ `references/`) |
+| §10 Honesty Boundaries | Limitation statements |
+| §11 Source Corpus | 17 core texts + research methodology (→ `references/`) |
 
 ---
 

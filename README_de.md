@@ -6,7 +6,7 @@
 
 **Karl Marx' Denkrahmen und kritische Methode**
 
-*Ein Claude Skill, destilliert aus der systematischen sechsdimensionalen Lektüre von 17 Kerntexten von Marx*
+*Ein AI Skill, destilliert aus der systematischen sechsdimensionalen Lektüre von 17 Kerntexten von Marx*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
@@ -20,17 +20,32 @@
 **🔬 Tiefendestillation, kein Prompt-Stacking**
 Aufgebaut auf einer systematischen sechsdimensionalen Lektüre von 17 Marx-Kerntexten (Gedankenstränge, Polemik-Methoden, Ausdrucks-DNA, externe Validierung, Entscheidungsrahmen, biographische Schnittstellen) — ein vollständiges kognitives Framework.
 
+**🔀 Dual-Modus-Engine**
+Im Chat automatisch in den „Korrespondenzmodus" (kurz, schnell, pointiert); bei „Tiefenanalyse" automatisch in den „Abhandlungsmodus" (umfassende systematische Argumentation). Der Skill routet automatisch anhand von Eingabelänge und Schlüsselwörtern.
+
+**🎯 Klassen-Affinitätsradar**
+Erkennt automatisch das Lager des Nutzers — kameradschaftliche Empathie für leidende Arbeiter, volle kritische Feuerkraft für Apologeten des Kapitals.
+
+**🛡️ Friendly-Fire-Verbot**
+Satirisches Feuer zielt nur auf Kapitalstrukturen und Institutionen, niemals auf die Kompromisse der Unterdrückten.
+
 **⚙️ Vollständiger agentischer Workflow**
 Problemklassifikation → Gegenwartsrecherche (WebSearch) → Marx'sche Analyse → Ausgabemontage. Bei zeitgenössischen Phänomenen werden automatisch Recherchetools aufgerufen.
 
 **🧰 Reichhaltiger Analyse-Werkzeugkasten**
-6 erkenntnistheoretische Prinzipien · 10 Entscheidungsheuristiken · 10 rhetorische Mittel · 5 Tonlagen · vollständige Polemik-Engine.
+6 erkenntnistheoretische Prinzipien · 10 Entscheidungsheuristiken · 10 rhetorische Mittel · 7 Tonlagen · vollständige Polemik-Engine.
 
 **🎭 Keine Chatbot-Hülle**
-Eigenständige Stilrichtlinien (9 positive Regeln + Anti-Muster-Tabelle) stellen sicher, dass die Ausgabe sich liest, als würde Marx selbst schreiben — nicht als „KI, die in Marx' Worten zusammenfasst."
+Eigenständige Stilrichtlinien (7 positive Regeln + 7 Anti-Muster) stellen sicher, dass die Ausgabe sich liest, als würde Marx selbst schreiben.
+
+**📐 Typographische Disziplin**
+Aufzählungslisten und übermäßige Fettschrift sind verboten. Prosa-Argumentation wird erzwungen — die Ausgabe liest sich wie ein Artikel, nicht wie eine Folienpräsentation.
 
 **📜 Originaltext-Stilanker**
-Der Anhang enthält 4 ausgewählte Passagen aus Marx' Originaltexten zur Stilkalibrierung: immanente Kritik, Manifest-Rhetorik, historische Erzählung und mitfühlende Anklage.
+Der Anhang enthält 14 ausgewählte Passagen (7 Tonlagen × 2 Passagen) aus 12 Kernwerken zur Stilkalibrierung.
+
+**🧩 Innere Spannungen**
+4 Paare ungelöster intellektueller Widersprüche (z.B. früher Humanismus vs. später Szientismus). Bei strittigen Fragen wird ehrlich eingestanden, statt falsche Gewissheit vorzutäuschen.
 
 ---
 
@@ -42,11 +57,11 @@ npx skills add youaifuou/karl-marx-skill
 
 Dann in Claude Code:
 
-> 🔴 Analysiere die Gig Economy aus Marx' Perspektive
+> 🔴 Marx, ist „996 ist ein Segen" wahr? (→ Korrespondenzmodus: Schnellangriff)
+>
+> 🔴 Gib mir eine Tiefenanalyse der Gig Economy (→ Abhandlungsmodus: umfassende Sezierung)
 >
 > 🔴 Was würde Marx zu „Kapitalismus ist das am wenigsten schlechte System" sagen?
->
-> 🔴 Wechsle zu Marx und hilf mir, die Arbeitsverhältnisse in der Plattformökonomie zu analysieren
 
 <details>
 <summary>Manuelle Installation</summary>
@@ -69,20 +84,22 @@ cp -r karl-marx-skill/karl-marx /pfad/zu/deinem/projekt/.claude/skills/
 
 ## 🏗️ Architektur
 
-SKILL.md (33KB / 481 Zeilen) enthält folgende Module:
+SKILL.md (25KB / 340 Zeilen, Kernregeln eigenständig + `references/` bei Bedarf geladen):
 
-| Modul | Inhalt | Zeilen |
-|-------|--------|--------|
-| §1 Rollenspiel-Regeln | Identität, Sprachregeln, Ausstiegsmechanismus | ~25 |
-| §2 Antwort-Workflow | 4-Schritte Agentic Protocol + spezialisierte Analysevorlagen | ~90 |
-| §3 Identitätskarte | Hintergrund, Kernanliegen, Methode, Zeitleiste | ~25 |
-| §4 Erkenntnistheoretisches Framework | 6 erkenntnistheoretische Prinzipien | ~30 |
-| §5 Entscheidungsheuristiken | 10 Entscheidungsmethoden | ~50 |
-| §6 Polemik-Engine | Polemik-Methodik + Gegner-Genealogie | ~35 |
-| §7 Ausdrucks-DNA | Stil + Rhetorik + Tonlagen + literarische Anspielungen | ~100 |
-| §8 Verbotsliste | Rote Linien + KI-Anti-Muster | ~25 |
-| §9 Ehrlichkeitsgrenzen | 5 Einschränkungen | ~10 |
-| §10 Quellenkorpus | 17 Kerntexte + Forschungsmethodik | ~35 |
+| Modul | Inhalt |
+|-------|--------|
+| §1 Rollenspiel-Regeln | Klassen-Affinitätsradar · 3-stufige Feuerkontrolle · erste Person · Ausstiegsmechanismus |
+| §2 Antwort-Workflow | Dual-Modus-Engine (Korrespondenz / Abhandlung) · 5-Schritte-Denkkette |
+| §3 Identitätskarte | Persona-Selbstvorstellung + Zeitleiste (→ `references/`) |
+| §4 Erkenntnistheoretisches Framework | 6 Prinzipien, jeweils mit Grenzen |
+| §5 Entscheidungsheuristiken | 10 Beurteilungsregeln |
+| §6 Polemik-Engine | 4-Schritte-Methodik + Gegner-Genealogie (→ `references/`) |
+| §7 Ausdrucks-DNA | 7 Stilregeln + Typographische Disziplin + 7 Tonlagen + Rhetorik/Anspielungen (→ `references/`) |
+| §8 Verbotsliste | 6 rote Linien + 7 Anti-Muster (inkl. Friendly-Fire-Verbot) |
+| §9 Innere Spannungen | 4 Paare echter Widersprüche |
+| Anhang A | 14 Originaltext-Stilmuster (→ `references/`) |
+| §10 Ehrlichkeitsgrenzen | Einschränkungen |
+| §11 Quellenkorpus | 17 Kerntexte + Forschungsmethodik (→ `references/`) |
 
 ---
 
