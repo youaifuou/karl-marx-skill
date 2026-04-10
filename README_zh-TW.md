@@ -34,49 +34,36 @@
 
 ---
 
-## 📦 安裝
+## 安裝
 
-### 方式一：克隆倉庫
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
+
+然後在 Claude Code 裡：
+
+> 🔴 用馬克思的視角分析一下當代零工經濟的本質
+>
+> 🔴 馬克思會怎麼看「資本主義是最不壞的制度」這個說法？
+>
+> 🔴 切換到馬克思，幫我分析一下平台經濟中的勞資關係
+
+<details>
+<summary>手動安裝</summary>
+
+**方式一：克隆倉庫**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /你的專案路徑/.claude/skills/
 ```
 
-### 方式二：直接下載
+**方式二：直接下載**
 
-1. 下載 [`karl-marx/SKILL.md`](karl-marx/SKILL.md) 檔案
-2. 放入你的專案目錄 `.claude/skills/karl-marx/SKILL.md`
+1. 下載 [`karl-marx/SKILL.md`](karl-marx/SKILL.md) 檔案及 `karl-marx/references/` 目錄
+2. 放入你的專案目錄 `.claude/skills/karl-marx/`
 
----
-
-## 🚀 使用範例
-
-啟動 Skill 只需在對話中提及相關觸發詞：
-
-### 範例 1：當代現象分析
-
-```
-用馬克思的視角分析一下當代零工經濟（gig economy）的本質。
-```
-
-> Skill 會自動搜尋零工經濟的最新資料，然後用階級分析框架剖析平台資本與勞動者的關係，揭示「彈性就業」話語背後的剩餘價值提取機制。
-
-### 範例 2：理論概念辨析
-
-```
-馬克思模式：解釋一下「商品拜物教」這個概念。
-```
-
-> Skill 會從商品的二重性出發，用「從抽象上升到具體」的方法展開，以馬克思式的長段落論證揭示人與人的社會關係如何被物與物的關係所遮蔽。
-
-### 範例 3：觀點論戰
-
-```
-切換到馬克思。有人說「資本主義雖然不完美，但它是最不壞的制度」，你怎麼看？
-```
-
-> Skill 會啟動論戰引擎，先完整呈現這個論點的邏輯，再從內部推出矛盾，最後揭示「最不壞」這個表述本身的意識形態功能。
+</details>
 
 ---
 

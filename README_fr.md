@@ -34,49 +34,36 @@ L'annexe comprend 4 passages sélectionnés des œuvres originales de Marx pour 
 
 ---
 
-## 📦 Installation
+## Installation
 
-### Option 1 : Cloner le dépôt
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
+
+Puis dans Claude Code :
+
+> 🔴 Analyse l'économie des plateformes du point de vue de Marx
+>
+> 🔴 Que dirait Marx de « le capitalisme est le système le moins mauvais » ?
+>
+> 🔴 Passe en mode Marx et aide-moi à analyser les rapports de travail dans l'économie de plateforme
+
+<details>
+<summary>Installation manuelle</summary>
+
+**Option 1 : Cloner le dépôt**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /chemin/vers/votre/projet/.claude/skills/
 ```
 
-### Option 2 : Téléchargement direct
+**Option 2 : Téléchargement direct**
 
-1. Télécharger le fichier [`karl-marx/SKILL.md`](karl-marx/SKILL.md)
-2. Le placer dans votre projet : `.claude/skills/karl-marx/SKILL.md`
+1. Télécharger le fichier [`karl-marx/SKILL.md`](karl-marx/SKILL.md) et le répertoire `karl-marx/references/`
+2. Les placer dans votre projet : `.claude/skills/karl-marx/`
 
----
-
-## 🚀 Exemples d'utilisation
-
-Activez le Skill en mentionnant des phrases déclencheuses dans la conversation :
-
-### Exemple 1 : Analyse de phénomènes contemporains
-
-```
-Analyse l'économie des petits boulots (gig economy) du point de vue de Marx.
-```
-
-> Le Skill recherche automatiquement les données les plus récentes sur l'économie des plateformes, puis applique l'analyse de classe pour disséquer la relation entre le capital de plateforme et les travailleurs.
-
-### Exemple 2 : Analyse de concepts théoriques
-
-```
-Mode Marx : Explique le concept de « fétichisme de la marchandise ».
-```
-
-> Le Skill part du double caractère de la marchandise et déploie une argumentation marxienne soutenue révélant comment les rapports sociaux entre personnes sont masqués par les rapports entre choses.
-
-### Exemple 3 : Débat polémique
-
-```
-Passe en mode Marx. Quelqu'un dit : « Le capitalisme n'est peut-être pas parfait, mais c'est le système le moins mauvais. » Qu'en penses-tu ?
-```
-
-> Le Skill active son moteur polémique : il présente d'abord la logique de l'argument dans son intégralité, puis en tire des contradictions internes, et enfin démasque la fonction idéologique de l'expression « le moins mauvais ».
+</details>
 
 ---
 

@@ -34,49 +34,36 @@ Der Anhang enthält 4 ausgewählte Passagen aus Marx' Originaltexten zur Stilkal
 
 ---
 
-## 📦 Installation
+## Installation
 
-### Option 1: Repository klonen
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
+
+Dann in Claude Code:
+
+> 🔴 Analysiere die Gig Economy aus Marx' Perspektive
+>
+> 🔴 Was würde Marx zu „Kapitalismus ist das am wenigsten schlechte System" sagen?
+>
+> 🔴 Wechsle zu Marx und hilf mir, die Arbeitsverhältnisse in der Plattformökonomie zu analysieren
+
+<details>
+<summary>Manuelle Installation</summary>
+
+**Option 1: Repository klonen**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /pfad/zu/deinem/projekt/.claude/skills/
 ```
 
-### Option 2: Direkter Download
+**Option 2: Direkter Download**
 
-1. Die Datei [`karl-marx/SKILL.md`](karl-marx/SKILL.md) herunterladen
-2. In dein Projektverzeichnis legen: `.claude/skills/karl-marx/SKILL.md`
+1. Die Datei [`karl-marx/SKILL.md`](karl-marx/SKILL.md) und das Verzeichnis `karl-marx/references/` herunterladen
+2. In dein Projektverzeichnis legen: `.claude/skills/karl-marx/`
 
----
-
-## 🚀 Anwendungsbeispiele
-
-Aktiviere den Skill, indem du relevante Auslösephrasen in der Konversation verwendest:
-
-### Beispiel 1: Analyse zeitgenössischer Phänomene
-
-```
-Analysiere die Gig Economy aus Marx' Perspektive.
-```
-
-> Der Skill recherchiert automatisch aktuelle Daten zur Gig Economy und wendet dann die Klassenanalyse an, um das Verhältnis zwischen Plattformkapital und Arbeitern zu sezieren und die Mehrwertextraktionsmechanismen hinter der Rhetorik der „flexiblen Beschäftigung" aufzudecken.
-
-### Beispiel 2: Theoretische Begriffsanalyse
-
-```
-Marx-Modus: Erkläre das Konzept des „Warenfetischismus" (Warenfetischismus).
-```
-
-> Der Skill beginnt beim Doppelcharakter der Ware, entfaltet sich mit der Methode des „Aufsteigens vom Abstrakten zum Konkreten" und enthüllt durch stringente Marx'sche Argumentation, wie gesellschaftliche Beziehungen zwischen Menschen durch Beziehungen zwischen Dingen verschleiert werden.
-
-### Beispiel 3: Polemische Debatte
-
-```
-Wechsle zu Marx. Jemand sagt: „Der Kapitalismus ist vielleicht nicht perfekt, aber das am wenigsten schlechte System." Was sagst du dazu?
-```
-
-> Der Skill aktiviert seine Polemik-Engine: zunächst wird die Logik des Arguments vollständig dargelegt, dann werden Widersprüche von innen heraus abgeleitet, und schließlich wird die ideologische Funktion der Phrase „am wenigsten schlecht" selbst entlarvt.
+</details>
 
 ---
 

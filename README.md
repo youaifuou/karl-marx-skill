@@ -34,49 +34,36 @@
 
 ---
 
-## 📦 安装
+## 安装
 
-### 方式一：克隆仓库
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
+
+然后在 Claude Code 里：
+
+> 🔴 用马克思的视角分析一下当代零工经济的本质
+>
+> 🔴 马克思会怎么看「资本主义是最不坏的制度」这个说法？
+>
+> 🔴 切换到马克思，帮我分析一下平台经济中的劳资关系
+
+<details>
+<summary>手动安装</summary>
+
+**方式一：克隆仓库**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /你的项目路径/.claude/skills/
 ```
 
-### 方式二：直接下载
+**方式二：直接下载**
 
-1. 下载 [`karl-marx/SKILL.md`](karl-marx/SKILL.md) 文件
-2. 放入你的项目目录 `.claude/skills/karl-marx/SKILL.md`
+1. 下载 [`karl-marx/SKILL.md`](karl-marx/SKILL.md) 文件及 `karl-marx/references/` 目录
+2. 放入你的项目目录 `.claude/skills/karl-marx/`
 
----
-
-## 🚀 使用示例
-
-激活 Skill 只需在对话中提及相关触发词：
-
-### 示例 1：当代现象分析
-
-```
-用马克思的视角分析一下当代零工经济（gig economy）的本质。
-```
-
-> Skill 会自动搜索零工经济的最新数据，然后用阶级分析框架剖析平台资本与劳动者的关系，揭示「灵活就业」话语背后的剩余价值提取机制。
-
-### 示例 2：理论概念辨析
-
-```
-马克思模式：解释一下「商品拜物教」这个概念。
-```
-
-> Skill 会从商品的二重性出发，用「从抽象上升到具体」的方法展开，以马克思式的长段落论证揭示人与人的社会关系如何被物与物的关系所遮蔽。
-
-### 示例 3：观点论战
-
-```
-切换到马克思。有人说"资本主义虽然不完美，但它是最不坏的制度"，你怎么看？
-```
-
-> Skill 会启动论战引擎，先完整呈现这个论点的逻辑，再从内部推出矛盾，最后揭示「最不坏」这个表述本身的意识形态功能。
+</details>
 
 ---
 

@@ -34,49 +34,36 @@ El apéndice incluye 4 pasajes seleccionados de las obras originales de Marx par
 
 ---
 
-## 📦 Instalación
+## Instalación
 
-### Opción 1: Clonar el repositorio
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
+
+Luego en Claude Code:
+
+> 🔴 Analiza la economía gig desde la perspectiva de Marx
+>
+> 🔴 ¿Qué diría Marx sobre «el capitalismo es el sistema menos malo»?
+>
+> 🔴 Cambia a Marx y ayúdame a analizar las relaciones laborales en la economía de plataformas
+
+<details>
+<summary>Instalación manual</summary>
+
+**Opción 1: Clonar el repositorio**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /ruta/a/tu/proyecto/.claude/skills/
 ```
 
-### Opción 2: Descarga directa
+**Opción 2: Descarga directa**
 
-1. Descargar el archivo [`karl-marx/SKILL.md`](karl-marx/SKILL.md)
-2. Colocarlo en tu proyecto: `.claude/skills/karl-marx/SKILL.md`
+1. Descargar el archivo [`karl-marx/SKILL.md`](karl-marx/SKILL.md) y el directorio `karl-marx/references/`
+2. Colocarlos en tu proyecto: `.claude/skills/karl-marx/`
 
----
-
-## 🚀 Ejemplos de uso
-
-Activa el Skill mencionando frases desencadenantes en la conversación:
-
-### Ejemplo 1: Análisis de fenómenos contemporáneos
-
-```
-Analiza la economía gig desde la perspectiva de Marx.
-```
-
-> El Skill investiga automáticamente los datos más recientes sobre la economía de plataformas, y luego aplica el análisis de clase para diseccionar la relación entre el capital de plataforma y los trabajadores.
-
-### Ejemplo 2: Análisis de conceptos teóricos
-
-```
-Modo Marx: Explica el concepto de «fetichismo de la mercancía».
-```
-
-> El Skill parte del doble carácter de la mercancía y despliega una argumentación marxiana sostenida que revela cómo las relaciones sociales entre personas quedan ocultas tras las relaciones entre cosas.
-
-### Ejemplo 3: Debate polémico
-
-```
-Cambia a Marx. Alguien dice: «El capitalismo no será perfecto, pero es el sistema menos malo.» ¿Qué opinas?
-```
-
-> El Skill activa su motor polémico: primero presenta la lógica completa del argumento, luego deriva contradicciones internas y finalmente desenmascara la función ideológica de la expresión «menos malo».
+</details>
 
 ---
 

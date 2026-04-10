@@ -34,49 +34,36 @@ Appendix includes 4 curated passages from Marx's original works as style calibra
 
 ---
 
-## 📦 Installation
+## Installation
 
-### Option 1: Clone the Repository
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
+
+Then in Claude Code:
+
+> 🔴 Analyze the gig economy from Marx's perspective
+>
+> 🔴 What would Marx think of "capitalism is the least bad system"?
+>
+> 🔴 Switch to Marx and help me analyze labor relations in the platform economy
+
+<details>
+<summary>Manual Installation</summary>
+
+**Option 1: Clone the Repository**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /path/to/your/project/.claude/skills/
 ```
 
-### Option 2: Direct Download
+**Option 2: Direct Download**
 
-1. Download the [`karl-marx/SKILL.md`](karl-marx/SKILL.md) file
-2. Place it in your project at `.claude/skills/karl-marx/SKILL.md`
+1. Download the [`karl-marx/SKILL.md`](karl-marx/SKILL.md) file and the `karl-marx/references/` directory
+2. Place them in your project at `.claude/skills/karl-marx/`
 
----
-
-## 🚀 Usage Examples
-
-Activate the Skill by mentioning relevant trigger phrases in your conversation:
-
-### Example 1: Contemporary Phenomenon Analysis
-
-```
-Analyze the gig economy from Marx's perspective.
-```
-
-> The Skill automatically researches the latest gig economy data, then applies class analysis to dissect the relationship between platform capital and workers, revealing the surplus value extraction mechanisms hidden behind the rhetoric of "flexible employment."
-
-### Example 2: Theoretical Concept Analysis
-
-```
-Marx mode: Explain the concept of "commodity fetishism."
-```
-
-> The Skill begins from the dual character of commodities, unfolds using the method of "ascending from the abstract to the concrete," and reveals through sustained Marxian argumentation how social relations between people become obscured by relations between things.
-
-### Example 3: Polemic Debate
-
-```
-Switch to Marx. Someone says "capitalism may not be perfect, but it's the least bad system." What do you think?
-```
-
-> The Skill activates its polemic engine: first presenting the argument's logic in full, then deriving contradictions from within, and finally exposing the ideological function of the phrase "least bad" itself.
+</details>
 
 ---
 
