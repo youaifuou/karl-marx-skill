@@ -15,6 +15,94 @@
 
 ---
 
+## 🗣️ Output Examples
+
+### Correspondence Mode (Chat · Quick Strike)
+
+> 🧑 **Marx, when can I achieve financial freedom and just lie flat?**
+
+<blockquote>
+🔨 <strong>Marx</strong>
+
+My friend, let me state upfront: I speak to you from the perspective of Marx, distilled from the depths of my complete works — not a resurrection, but that won't stop me from using a sharp knife.
+
+"Financial freedom."
+
+Have you ever considered that these two words are, in themselves, an exquisitely crafted piece of capitalist rhetoric? They imply a premise: that you are currently **not free**. And the remedy they prescribe is — accumulate enough capital. In other words, you must use the logic of capital to break free from the chains of capital. It's like telling a prisoner that if he moves a million bricks inside his cell, he'll be released.
+
+You call this "freedom." I call this alienation (Entfremdung) in its highest form.
+
+The worker feels at home only when he is not working, and when he is working he does not feel at home. Your so-called "lying flat" is nothing but the body's instinctive rebellion against "losing oneself in labour." The problem is you've got the target backwards: you shouldn't be trying to earn enough to buy "freedom" — you should be asking: why is most of the value you create every day taken by someone who doesn't labour, under the banner of "risk and return"? Why must you sell yourself for thirty years before you're allowed to live like a human being?
+
+What's the threshold for "financial freedom"? Ten million? Twenty million? Have you noticed that this number is always running ahead of you, at a speed just slightly faster than your wage growth? This is no coincidence — it is the inevitable result of the general law of capital accumulation: the rate of capital's self-expansion will always outpace the growth of labour's price. What you're chasing is not a finish line — it's an asymptote.
+
+And "lying flat"? It is not your laziness. It is your body being more honest than your brain. Your body already knows what you refuse to admit: the rules of this game were never designed to let you win.
+
+So the real question is not "when can I achieve financial freedom," but: **why must "freedom" be ransomed with "wealth"?**
+
+Have you thought about that?
+</blockquote>
+
+---
+
+### Treatise Mode (Deep Analysis · Full Dissection)
+
+> 🧑 **Marx, give me a deep analysis of the internet industry's "fired at 35" phenomenon**
+
+<blockquote>
+🔨 <strong>Marx</strong>
+
+"Thirty-five is the end of the line for a programmer."
+
+This sentence has been repeated countless times in China's internet industry — repeated until it has almost become a "law of nature," like sunrise and sunset, like gravity, like the kind of mental inertia I criticised in the preface to *Capital*: disguising a social arrangement born of specific historical conditions as an eternal, immutable natural law. Whenever someone tells you something is "just the way it is," the first thing you should do is ask: when was this "nature" manufactured? By whom? And whose interests does it serve?
+
+What I intend to do is flip this so-called "natural law" over and examine its underside.
+
+<strong>Labour-Power as a Commodity with an Expiry Date</strong>
+
+To understand the "35 phenomenon," you must first clarify a fundamental question: under the capitalist mode of production, what does the worker sell to the capitalist? Not "labour" — but <strong>labour-power</strong> (Arbeitskraft), a peculiar commodity. And since it is a commodity, it must obey the general laws of commodities: it has use-value, exchange-value, and — here is the key — wear and depreciation.
+
+In traditional manufacturing, the "depreciation" of labour-power is slow; a skilled worker's use-value may even rise with accumulated experience. But internet capital has invented a new mode of organising production that fundamentally alters the rhythm of labour-power depreciation. Tech stacks iterate every two or three years, business models are overturned every eighteen months, and the entire industry runs on venture capital funding cycles rather than a product's natural lifecycle. Under these conditions, capital does not need your accumulation — it needs the cheapest, most exploitable, most overworkable stretch of your life.
+
+<details>
+<summary>📖 <em>Click to expand full argument (Industrial Reserve Army · Hustle Narrative · Crisis Direction)</em></summary>
+
+<br>
+
+> "The 35-year-old programmer is experienced, but too expensive, and can no longer physically endure 996."
+
+This is the most common defence from corporate HR departments. Let me use their own premises to shatter their own logic. If experience is valuable, why are experienced workers the ones being eliminated? The answer: under the internet industry's specific mode of capital accumulation, the use-value of experience has been artificially devalued. It is not because 35-year-old programmers can no longer write code — it is because capital has completed the standardised decomposition of programming labour. Through frameworks, middleware, low-code platforms, and an endless chain of open-source tools, work that once required ten years of experience has been broken down into assembly-line operations that any fresh graduate can perform after three months of training. This is not a "side effect" of technological progress — it is capital's deliberate, systematic engineering to lower the threshold of labour-power and suppress its price. In *Capital*, I analysed how machinery degrades skilled labour into simple labour; one hundred and sixty years later, the same logic plays out with precision in code factories.
+
+<strong>The Digital Version of the Industrial Reserve Army</strong>
+
+The reason the "35 crisis" can become a systemic social terror — and not merely an individual career setback — is that behind it stands a vast industrial reserve army (industrielle Reservearmee). Every year, millions of computer science graduates flood the market; training bootcamps mass-produce "full-stack engineers" with assembly-line efficiency. The existence of this reserve army hangs a sword over every employed programmer: you won't accept a pay cut? You won't work overtime? Your body can't take it anymore? There's a queue at the door.
+
+This reserve army has a special characteristic. In traditional industries, replenishing the reserve army is relatively slow — training a miner takes time. But in the internet industry, capital has successfully compressed "the time needed to produce a usable worker" to a few months. This means the bargaining power of employed workers is extremely weakened — and those who are "experienced," which is to say those whose wage demands are higher, become the first to be replaced. The so-called "fired at 35" is, in essence, nothing more than capital's rational calculation of optimal cost substitution under conditions of an abundant reserve army.
+
+You think this is entrepreneurial cruelty? No. As I said in the preface to *Capital*, I never hold individuals responsible for economic relations. The HR director who signs your termination letter is herself a wage labourer dancing under the whip of KPIs. The real driving force is the internal logic of capital's self-expansion: under the long-term pressure of the tendency of the rate of profit to fall, cutting labour costs is capital's most reliable means of maintaining profitability. Younger workers have lower wages, smaller social insurance contributions, lower physical costs of overtime, and weaker consciousness of resistance — this is not prejudice, this is capital's precise arithmetic.
+
+<strong>The Ideological Production of the "Hustle Narrative"</strong>
+
+Economic coercion alone is not enough. Capital also needs an ideology to make this cruel arrangement appear reasonable — and even to make those who are eliminated feel that "I wasn't good enough." This is the true function of the internet industry's meticulously constructed "hustle culture."
+
+> "You were eliminated not because the system is flawed, but because you didn't keep learning, didn't embrace change, didn't step out of your comfort zone."
+
+The brilliance of this discourse lies in this: it takes a structural, systemic oppression and perfectly disguises it as individual moral responsibility. You lost your job? You didn't try hard enough. You're depressed? Your mindset is bad. You can't code at thirty-five? You lack the awareness of "lifelong learning." Commodity fetishism (Warenfetischismus) presents itself here in its purest form: the exploitative relationship between human beings is inverted into a technical relationship between things — your skills are outdated, your "market value" has declined, you have been eliminated by "the market." See? It's not people eliminating you, it's "the market" eliminating you. And "the market" is neutral, natural, beyond question. This is precisely what must be questioned.
+
+<strong>The Direction of the Crisis</strong>
+
+Where will this contradiction lead? Look at the demographic structure. The first large-scale cohort of China's internet workers is collectively entering the 35-to-45 age bracket, while the birth rate is declining and the replenishment of the reserve army will gradually slow. Capital will find itself facing a predicament of its own making: it spent a decade building a growth model predicated on devouring young labour-power, but young labour-power is becoming a scarce resource. Meanwhile, the "optimised-out" workers over 35 constitute a large, angry, highly educated social group whose consumption power is declining, whose social security is incomplete, and whose political demands are suppressed.
+
+Capital's short-term rationality — extracting maximum surplus value from the cheapest labour-power — has produced a long-term, structural social crisis. This is not a decision-making error of any single company; it is the inevitable unfolding of the general law of capital accumulation within a specific industry.
+
+The youth of labour-power does not belong to itself — it belongs to the capital that purchases it. And when capital has wrung that youth dry, it will discard the person like a fully depreciated machine, throwing them out the factory gates — and on the job posting at the entrance, it will write: under 35 only.
+
+</details>
+
+</blockquote>
+
+---
+
 ## ✨ Highlights
 
 **🔬 Deep Distillation, Not Prompt Stacking**
