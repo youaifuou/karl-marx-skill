@@ -146,13 +146,7 @@ The youth of labour-power does not belong to itself — it belongs to the capita
 
 ## Installation
 
-**Option 1: One-Click Install (Claude Code)**
-
-```bash
-npx skills add youaifuou/karl-marx-skill
-```
-
-**Option 2: Let Your AI Handle It**
+**Option 1: Let Your AI Handle It**
 
 Send this project link to any AI Agent you're using (ChatGPT, Claude, Gemini, Cursor, etc.) and tell it:
 
@@ -160,6 +154,12 @@ Send this project link to any AI Agent you're using (ChatGPT, Claude, Gemini, Cu
 > Repository: https://github.com/youaifuou/karl-marx-skill
 
 The AI will automatically handle downloading, directory adaptation, and configuration. This is the most flexible installation method and works with any AI tool that supports Skill/Prompt loading.
+
+**Option 2: One-Click Install (Claude Code)**
+
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
 
 <details>
 <summary>Option 3: Manual Installation</summary>

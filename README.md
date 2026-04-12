@@ -146,13 +146,7 @@
 
 ## 安装
 
-**方式一：一键安装（Claude Code）**
-
-```bash
-npx skills add youaifuou/karl-marx-skill
-```
-
-**方式二：让你的 AI 自己搞定**
+**方式一：让你的 AI 自己搞定**
 
 将本项目链接发给你正在使用的任意 AI Agent（ChatGPT、Claude、Gemini、Cursor 等），告诉它：
 
@@ -160,6 +154,12 @@ npx skills add youaifuou/karl-marx-skill
 > 仓库地址：https://github.com/youaifuou/karl-marx-skill
 
 AI 会自动完成下载、目录适配和配置工作。这是最灵活的安装方式，适用于任何支持 Skill/Prompt 加载的 AI 工具。
+
+**方式二：一键安装（Claude Code）**
+
+```bash
+npx skills add youaifuou/karl-marx-skill
+```
 
 <details>
 <summary>方式三：手动安装</summary>
