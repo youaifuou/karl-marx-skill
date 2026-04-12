@@ -9,7 +9,7 @@
 17 篇核心著作深度蒸馏 · 双模态分析引擎 · 阶级立场识别 · 完整论战人格
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
-![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
+![Agent Skill](https://img.shields.io/badge/Agent-Skill-blueviolet)
 
 </div>
 

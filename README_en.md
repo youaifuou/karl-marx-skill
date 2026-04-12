@@ -9,7 +9,7 @@
 Deep distillation from 17 core texts · Dual-mode engine · Class stance detection · Full polemic persona
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
-![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
+![Agent Skill](https://img.shields.io/badge/Agent-Skill-blueviolet)
 
 </div>
 
