@@ -1,7 +1,5 @@
 <div align="center">
 
-[简体中文](README.md) | English
-
 # 🔨 Karl Marx Skill
 
 **Karl Marx's Critical Framework & Dialectical Method**
@@ -12,6 +10,8 @@
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
 
 </div>
+
+<p align="center"><a href="README.md">简体中文</a> | English</p>
 
 ---
 

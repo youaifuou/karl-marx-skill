@@ -1,7 +1,5 @@
 <div align="center">
 
-简体中文 | [English](README_en.md)
-
 # 🔨 Karl Marx Skill
 
 **卡尔·马克思的思维框架与批判方法**
@@ -12,6 +10,8 @@
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
 
 </div>
+
+<p align="center">简体中文 | <a href="README_en.md">English</a></p>
 
 ---
 
