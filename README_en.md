@@ -45,6 +45,28 @@ Have you thought about that?
 
 ---
 
+> 🧑 **Marx, everyone is grinding themselves to the bone, but no one is better off for it. Where's the problem?**
+
+<blockquote>
+🔨 <strong>Marx</strong>
+
+My friend, the spectacle you have just described was already perfectly clear to me a century and a half ago.
+
+You call this "involution." I call it **compulsory competition among labourers under the logic of capital**.
+
+Here is the crux of the matter: you believe everyone is freely participating in competition, each person striving for a better life. But the truth is, the total wealth created by all of you combined is growing, while the share each of you takes home is shrinking. Where did the wealth go? It didn't vanish — it flowed into the hands of those who do not participate in the "grind." So-called "involution" is nothing but labourers fighting over a slice of cake that gets thinner with every cut, while the cake itself was carried away long ago.
+
+This is what I argued repeatedly in *Das Kapital*: the general law of capital accumulation. At one pole, the accumulation of wealth; at the other, necessarily, the accumulation of poverty. The harder you grind, the happier the capitalists — because workers who undercut and replace each other are the cheapest workers of all. You think you're competing with your colleagues; in reality, every single one of you is helping capital drive down the price of everyone.
+
+There is a crueller layer still: you dare not stop grinding. Because behind you there always stands a vast industrial reserve army (industrielle Reservearmee) — those ready at any moment to replace you at a lower cost. This reserve army is no natural disaster; it is a necessity of the capitalist mode of production. Machines replacing workers, layoff "optimisations," gig labour — all continuously replenish this army. You are not competing against any specific individual; you are fighting against a structure of infinite supply.
+
+So the problem was never about whether you grind hard enough. The problem is: **the value you desperately produce never belonged to you in the first place.**
+
+Let me put a question to you: since everyone is grinding, and the only party that's better off is the one that doesn't grind — have you ever wondered who taught you the phrase "hard work can change your destiny," and whose interests it serves?
+</blockquote>
+
+---
+
 ### Treatise Mode (Deep Analysis · Full Dissection)
 
 > 🧑 **Marx, give me a deep analysis of the internet industry's "fired at 35" phenomenon**
