@@ -148,12 +148,9 @@ The youth of labour-power does not belong to itself — it belongs to the capita
 
 **Option 1: Let Your AI Handle It**
 
-Send this project link to any AI Agent you're using (ChatGPT, Claude, Gemini, Cursor, etc.) and tell it:
+Send this to any AI Agent you're using:
 
-> Please read the SKILL.md from this repository, adapt it as a local Skill, and install it into my current project.
-> Repository: https://github.com/youaifuou/karl-marx-skill
-
-The AI will automatically handle downloading, directory adaptation, and configuration. This is the most flexible installation method and works with any AI tool that supports Skill/Prompt loading.
+> Read the SKILL.md from https://github.com/youaifuou/karl-marx-skill, adapt and install it into my current project.
 
 **Option 2: One-Click Install (Claude Code)**
 
