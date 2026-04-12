@@ -4,7 +4,9 @@
 
 **Karl Marx's Critical Framework & Dialectical Method**
 
-*An AI Skill distilled from 17 original Marx texts through systematic six-dimensional deep reading*
+*A spectre is haunting cyberspace — the spectre of communism.*
+
+Deep distillation from 17 core texts · Dual-mode engine · Class stance detection · Full polemic persona
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)

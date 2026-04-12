@@ -4,7 +4,9 @@
 
 **卡尔·马克思的思维框架与批判方法**
 
-*基于 17 篇马克思核心著作的系统性六维度精读蒸馏而成的 AI Skill*
+*一个幽灵，共产主义的幽灵，在赛博空间中游荡。*
+
+17 篇核心著作深度蒸馏 · 双模态分析引擎 · 阶级立场识别 · 完整论战人格
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 ![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet)
