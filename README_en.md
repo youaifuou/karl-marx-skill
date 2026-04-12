@@ -150,7 +150,7 @@ The youth of labour-power does not belong to itself — it belongs to the capita
 
 Send this to any AI Agent you're using:
 
-> Read https://github.com/youaifuou/karl-marx-skill, understand the project, and adapt it into my current project.
+> Please read https://github.com/youaifuou/karl-marx-skill and install it as an Agent Skill into my current project.
 
 **Option 2: One-Click Install (Claude Code)**
 
