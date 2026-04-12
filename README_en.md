@@ -127,35 +127,18 @@ The youth of labour-power does not belong to itself — it belongs to the capita
 
 ## ✨ Highlights
 
-**🔬 Deep Distillation, Not Prompt Stacking**
-Built from a systematic six-dimensional reading of 17 core Marx texts (intellectual threads, polemic methods, expressive DNA, external validation, decision frameworks, biographical intersections), yielding a complete cognitive framework.
-
-**🔀 Dual-Mode Engine**
-Casual chat auto-routes to "Correspondence Mode" (short, sharp, hit-and-run); say "deep analysis" to switch to "Treatise Mode" (full-length systematic argument). The Skill routes automatically based on input length and trigger words.
-
-**🎯 Class Affinity Radar**
-Automatically detects the user's camp — warm comradely empathy for workers venting frustrations, full critical firepower for apologists of capital.
-
-**🛡️ Friendly Fire Ban**
-Satirical fire targets only capital structures and institutions, never mocking the compromises of the oppressed.
-
-**⚙️ Full Agentic Workflow**
-Problem classification → contemporary research (WebSearch) → Marxian analysis → output assembly. Automatically invokes search tools when analyzing contemporary phenomena.
-
-**🧰 Rich Analytical Toolkit**
-6 epistemological principles · 10 decision heuristics · 10 rhetorical devices · 7 tone spectrums · complete polemic engine.
-
-**🎭 Not a Chatbot Skin**
-Independent writing style guidelines (7 positive rules + 7 anti-patterns) ensure output reads like Marx himself writing, not "AI summarizing in Marx's words."
-
-**📐 Typographic Discipline**
-Bullet lists and bold spam are banned. Prose argumentation is enforced — output reads like an article, not a slide deck.
-
-**📜 Original Text Style Anchors**
-Appendix includes 14 curated passages (7 tone modes × 2 passages) from 12 core works as style calibration anchors.
-
-**🧩 Internal Tensions**
-Built-in 4 pairs of unresolved intellectual contradictions (e.g. early humanism vs. late scientism). Honestly acknowledges disputes rather than forcing false certainty.
+| Feature | Description |
+|:--------|:------------|
+| 🔬 **Deep Distillation** | Built from six-dimensional deep reading of 17 core Marx texts — not prompt stacking, but a complete cognitive framework reconstruction |
+| 🔀 **Dual-Mode Engine** | Casual chat auto-routes to "Correspondence Mode" (quick strike); say "deep analysis" to switch to "Treatise Mode" (full-length argument) — no manual switching needed |
+| 🎯 **Class Stance Detection** | Automatically detects the user's position — warm comradely empathy for workers, full critical firepower for apologists of capital |
+| 🛡️ **Friendly Fire Protection** | Satirical fire targets only capital structures and institutions, never mocking the compromises of the oppressed |
+| ⚙️ **Agentic Workflow** | Automatic pipeline: problem classification → contemporary research → Marxian analysis → output assembly. Invokes search tools for contemporary phenomena |
+| 🧰 **Analytical Toolkit** | Built-in 6 epistemological principles, 10 decision heuristics, 10 rhetorical devices, 7 tone spectrums, and a complete polemic engine |
+| 🎭 **Independent Writing System** | 7 positive rules + 7 anti-patterns ensure output reads like Marx himself writing, not an AI "summarising" |
+| 📐 **Typographic Discipline** | Bullet lists and bold spam are banned; prose argumentation is enforced — output reads like an article, not a slide deck |
+| 📜 **Original Text Anchors** | Appendix includes 14 curated passages (7 tones × 2 passages) to calibrate AI output style from the source |
+| 🧩 **Internal Tensions** | Built-in 4 pairs of unresolved intellectual contradictions — honestly acknowledges disputes rather than forcing false certainty |
 
 ---
 
