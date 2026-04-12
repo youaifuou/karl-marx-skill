@@ -150,7 +150,7 @@
 
 把下面这段话发给你正在使用的任意 AI Agent：
 
-> 读取 https://github.com/youaifuou/karl-marx-skill 仓库的 SKILL.md，适配并安装到当前项目。
+> 读取 https://github.com/youaifuou/karl-marx-skill 这个项目，理解并适配安装到当前项目中。
 
 **方式二：一键安装（Claude Code）**
 
