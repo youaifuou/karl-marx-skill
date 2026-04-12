@@ -146,34 +146,45 @@
 
 ## 安装
 
+**方式一：一键安装（Claude Code）**
+
 ```bash
 npx skills add youaifuou/karl-marx-skill
 ```
 
-然后在 Claude Code 里：
+**方式二：让你的 AI 自己搞定**
 
-> 🔴 马克思，996 是福报吗？（→ 通信态：匕首短打）
->
-> 🔴 深度分析一下当代零工经济的本质（→ 著述态：长篇解剖）
->
-> 🔴 马克思会怎么看「资本主义是最不坏的制度」这个说法？
+将本项目链接发给你正在使用的任意 AI Agent（ChatGPT、Claude、Gemini、Cursor 等），告诉它：
+
+> 请读取这个仓库的 SKILL.md，将它适配为你的本地 Skill 并安装到当前项目中。
+> 仓库地址：https://github.com/youaifuou/karl-marx-skill
+
+AI 会自动完成下载、目录适配和配置工作。这是最灵活的安装方式，适用于任何支持 Skill/Prompt 加载的 AI 工具。
 
 <details>
-<summary>手动安装</summary>
+<summary>方式三：手动安装</summary>
 
-**方式一：克隆仓库**
+**克隆仓库**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /你的项目路径/.claude/skills/
 ```
 
-**方式二：直接下载**
+**或直接下载**
 
 1. 下载 [`karl-marx/SKILL.md`](karl-marx/SKILL.md) 文件及 `karl-marx/references/` 目录
 2. 放入你的项目目录 `.claude/skills/karl-marx/`
 
 </details>
+
+安装完成后，试试这些提示词：
+
+> 🔴 马克思，996 是福报吗？（→ 通信态：匕首短打）
+>
+> 🔴 深度分析一下当代零工经济的本质（→ 著述态：长篇解剖）
+>
+> 🔴 马克思会怎么看「资本主义是最不坏的制度」这个说法？
 
 ---
 

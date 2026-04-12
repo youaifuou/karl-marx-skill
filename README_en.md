@@ -146,34 +146,45 @@ The youth of labour-power does not belong to itself — it belongs to the capita
 
 ## Installation
 
+**Option 1: One-Click Install (Claude Code)**
+
 ```bash
 npx skills add youaifuou/karl-marx-skill
 ```
 
-Then in Claude Code:
+**Option 2: Let Your AI Handle It**
 
-> 🔴 Marx, is "996 is a blessing" true? (→ Correspondence Mode: quick strike)
->
-> 🔴 Give me a deep analysis of the gig economy (→ Treatise Mode: full dissection)
->
-> 🔴 What would Marx think of "capitalism is the least bad system"?
+Send this project link to any AI Agent you're using (ChatGPT, Claude, Gemini, Cursor, etc.) and tell it:
+
+> Please read the SKILL.md from this repository, adapt it as a local Skill, and install it into my current project.
+> Repository: https://github.com/youaifuou/karl-marx-skill
+
+The AI will automatically handle downloading, directory adaptation, and configuration. This is the most flexible installation method and works with any AI tool that supports Skill/Prompt loading.
 
 <details>
-<summary>Manual Installation</summary>
+<summary>Option 3: Manual Installation</summary>
 
-**Option 1: Clone the Repository**
+**Clone the Repository**
 
 ```bash
 git clone https://github.com/youaifuou/karl-marx-skill.git
 cp -r karl-marx-skill/karl-marx /path/to/your/project/.claude/skills/
 ```
 
-**Option 2: Direct Download**
+**Or Direct Download**
 
 1. Download the [`karl-marx/SKILL.md`](karl-marx/SKILL.md) file and the `karl-marx/references/` directory
 2. Place them in your project at `.claude/skills/karl-marx/`
 
 </details>
+
+Once installed, try these prompts:
+
+> 🔴 Marx, is "996 is a blessing" true? (→ Correspondence Mode: quick strike)
+>
+> 🔴 Give me a deep analysis of the gig economy (→ Treatise Mode: full dissection)
+>
+> 🔴 What would Marx think of "capitalism is the least bad system"?
 
 ---
 
