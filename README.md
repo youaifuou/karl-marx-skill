@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/marx_minimal_line_1775981161959.png" alt="Karl Marx" width="200">
+
 # 🔨 Karl Marx Skill
 
 **卡尔·马克思的思维框架与批判方法**
