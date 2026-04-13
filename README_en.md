@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/marx_minimal_line_1775981161959.png" alt="Karl Marx" width="200">
-
-# 🔨 Karl Marx Skill
+<a href="#-karl-marx-skill"><img src="assets/header.svg" alt="Karl Marx Skill" width="800"></a>
 
 **Karl Marx's Critical Framework & Dialectical Method**
 
