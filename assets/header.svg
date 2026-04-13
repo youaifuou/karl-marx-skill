@@ -6,34 +6,22 @@
   <!-- ====== 样式 + Dark Mode ====== -->
   <style>
     .avatar-bg  { fill: #ffffff; }
-    .ring-inner { stroke: #8B0000; fill: none; stroke-width: 2; }
-    .ring-outer { stroke: #8B0000; fill: none; stroke-width: 1; opacity: 0.35; }
-    .title      { fill: #24292f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 700; }
-    .shadow     { flood-color: #8B0000; flood-opacity: 0.2; }
+    .ring        { stroke: #c0c0c0; fill: none; stroke-width: 0.8; }
+    .title      { fill: #24292f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 600; letter-spacing: 0.5px; }
 
     @media (prefers-color-scheme: dark) {
       .avatar-bg  { fill: #ffffff; }
-      .ring-inner { stroke: #C41E3A; }
-      .ring-outer { stroke: #C41E3A; }
-      .title      { fill: #f0f6fc; }
-      .shadow     { flood-color: #C41E3A; flood-opacity: 0.3; }
+      .ring        { stroke: #484f58; }
+      .title      { fill: #e6edf3; }
     }
   </style>
 
   <!-- ====== 定义 ====== -->
   <defs>
-    <!-- 圆形遮罩 -->
     <clipPath id="avatar-clip">
       <circle cx="400" cy="95" r="65"/>
     </clipPath>
-    <!-- 柔和阴影 -->
-    <filter id="ring-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow class="shadow" dx="0" dy="0" stdDeviation="6"/>
-    </filter>
   </defs>
-
-  <!-- ====== 外环（含光晕） ====== -->
-  <circle class="ring-outer" cx="400" cy="95" r="74" filter="url(#ring-glow)"/>
 
   <!-- ====== 白底（保证线描清晰） ====== -->
   <circle class="avatar-bg" cx="400" cy="95" r="65"/>
@@ -46,8 +34,8 @@
     clip-path="url(#avatar-clip)"
     preserveAspectRatio="xMidYMid slice"/>
 
-  <!-- ====== 内环 ====== -->
-  <circle class="ring-inner" cx="400" cy="95" r="69"/>
+  <!-- ====== 装饰环（极简细线） ====== -->
+  <circle class="ring" cx="400" cy="95" r="68"/>
 
   <!-- ====== 标题 ====== -->
   <text class="title" x="400" y="195" text-anchor="middle">Karl Marx Skill</text>
