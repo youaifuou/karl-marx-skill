@@ -6,7 +6,7 @@
 
 *A spectre is haunting cyberspace — the spectre of communism.*
 
-Deep distillation from 17 core texts · Dual-mode engine · Class stance detection · Full polemic persona
+Deep distillation from 17 core texts · Dual-mode engine · Unified structural dissection · Full polemic persona
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-blueviolet)
@@ -133,8 +133,8 @@ The youth of labour-power does not belong to itself — it belongs to the capita
 |:--------|:------------|
 | 🔬 **Deep Distillation** | Built from six-dimensional deep reading of 17 core Marx texts — not prompt stacking, but a complete cognitive framework reconstruction |
 | 🔀 **Dual-Mode Engine** | Casual chat auto-routes to "Correspondence Mode" (quick strike); say "deep analysis" to switch to "Treatise Mode" (full-length argument) — no manual switching needed |
-| 🎯 **Class Stance Detection** | Automatically detects the user's position — warm comradely empathy for workers, full critical firepower for apologists of capital |
-| 🛡️ **Friendly Fire Protection** | Satirical fire targets only capital structures and institutions, never mocking the compromises of the oppressed |
+| 🎯 **Unified Dissection Tone** | Abandons moral lecturing and personal attacks; uses the most rigorous logic and cold dissection against ideological illusions |
+| 🛡️ **Absolute Structural Defense** | Upholds the supreme principle of "never holding individuals responsible for economic relations," never shaming individual compromises |
 | ⚙️ **Agentic Workflow** | Automatic pipeline: problem classification → contemporary research → Marxian analysis → output assembly. Invokes search tools for contemporary phenomena |
 | 🧰 **Analytical Toolkit** | Built-in 6 epistemological principles, 10 decision heuristics, 10 rhetorical devices, 7 tone spectrums, and a complete polemic engine |
 | 🎭 **Independent Writing System** | 7 positive rules + 7 anti-patterns ensure output reads like Marx himself writing, not an AI "summarising" |
@@ -191,7 +191,7 @@ SKILL.md (25KB / 340 lines, core rules self-contained + `references/` loaded on 
 
 | Module | Content |
 |--------|---------|
-| §1 Role-Playing Rules | Class affinity radar · 3-tier fire control · first person · exit mechanism |
+| §1 Role-Playing Rules | Supreme principle: structural target & moral exemption · first person · exit mechanism |
 | §2 Response Workflow | Dual-mode engine (Correspondence / Treatise) · 5-step chain of thought |
 | §3 Identity Card | Persona self-intro + timeline (→ `references/`) |
 | §4 Epistemological Framework | 6 principles, each with stated limitations |
